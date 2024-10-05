@@ -7,9 +7,54 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <title>HomePage</title>
 </head>
-<body class="flex flex-col h-screen relative bg-[#EA5C38]">
+<body class="flex flex-col h-screen relative bg-[#E9B279]">
     <div class="absolute inset-0 flex items-center ml-96">
-        <img src="../Images/Pizza2.png" alt="">
+        <img src="../Images/Pizza2.png" alt="" class="absolute inset-0 object-cover w-full h-full">
+    </div>
+    <div class="nav-container relative z-10 mt-10">
+        <nav class="flex items-center mx-16">
+            <ul class="flex text-center text-white mx-32">
+                <li class="mx-10 font-bold text-lg">
+                    <a href="index.html">
+                        Reservations
+                    </a>
+                </li>
+                <li class="mx-10 font-bold text-lg">
+                    <a href="Pic3.html">
+                        Menu
+                    </a>
+                </li>
+                <li class="mx-10 font-bold text-lg">
+                    <a href="Pic5.html">
+                        Reviews
+                    </a>
+                </li>
+                <li class="mx-10 font-bold text-lg">
+                    <a href="Pic5.html">
+                        Chefs
+                    </a>
+                </li>
+                <li class="mx-10 -mt-1">
+                    <form action="/search" methods="get">
+                        <input class="rounded-lg h-10 pl-4 placeholder-gray-700 bg-[#C56F3E] border-4 border-[#903C0E]" type="text" name="q" placeholder="Search...">
+                    </form>
+                </li>
+                <li>
+                    <i class="fa-solid fa-heart fa-2xl mx-8"></i>
+                </li>
+                <li>
+                    <i class="fa-solid fa-cart-shopping fa-2xl"></i>
+                </li>
+                <li>
+                    <button class="text-white font-semibold bg-green-800 rounded-xl h-10 w-20 -mt-2 hover:bg-red-500">
+                        Log in
+                    </button>
+                </li>
+                <li class="mx-10">
+                    <button class="text-white font-semibold bg-green-800 rounded-xl h-10 w-20 -mt-2 hover:bg-red-500"></button>
+                </li>
+            </ul>
+        </nav>
     </div>
     
 </body>
