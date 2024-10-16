@@ -578,6 +578,11 @@ video {
   z-index: 10;
 }
 
+.-mx-4 {
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
 .mx-10 {
   margin-left: 2.5rem;
   margin-right: 2.5rem;
@@ -586,6 +591,11 @@ video {
 .mx-16 {
   margin-left: 4rem;
   margin-right: 4rem;
+}
+
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .mx-32 {
@@ -601,6 +611,11 @@ video {
 .mx-8 {
   margin-left: 2rem;
   margin-right: 2rem;
+}
+
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .-mt-1 {
@@ -671,6 +686,14 @@ video {
   height: 2.5rem;
 }
 
+.h-14 {
+  height: 3.5rem;
+}
+
+.h-20 {
+  height: 5rem;
+}
+
 .h-full {
   height: 100%;
 }
@@ -679,20 +702,12 @@ video {
   height: 100vh;
 }
 
-.h-20 {
-  height: 5rem;
-}
-
-.h-14 {
-  height: 3.5rem;
-}
-
 .w-20 {
   width: 5rem;
 }
 
-.w-full {
-  width: 100%;
+.w-28 {
+  width: 7rem;
 }
 
 .w-9 {
@@ -703,8 +718,8 @@ video {
   width: 24rem;
 }
 
-.w-28 {
-  width: 7rem;
+.w-full {
+  width: 100%;
 }
 
 .border-collapse {
@@ -752,6 +767,11 @@ video {
   border-color: rgb(144 60 14 / var(--tw-border-opacity));
 }
 
+.border-green-900 {
+  --tw-border-opacity: 1;
+  border-color: rgb(20 83 45 / var(--tw-border-opacity));
+}
+
 .border-red-900 {
   --tw-border-opacity: 1;
   border-color: rgb(127 29 29 / var(--tw-border-opacity));
@@ -777,6 +797,11 @@ video {
   background-color: rgb(233 178 121 / var(--tw-bg-opacity));
 }
 
+.bg-green-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 197 94 / var(--tw-bg-opacity));
+}
+
 .bg-green-800 {
   --tw-bg-opacity: 1;
   background-color: rgb(22 101 52 / var(--tw-bg-opacity));
@@ -792,6 +817,26 @@ video {
   background-color: rgb(153 27 27 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#9e4414\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(158 68 20 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#a94c1a\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(169 76 26 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#bc561f\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(188 86 31 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#b6521d\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(182 82 29 / var(--tw-bg-opacity));
+}
+
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -803,6 +848,10 @@ video {
 
 .text-center {
   text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
 }
 
 .text-6xl {
@@ -819,12 +868,21 @@ video {
   font-weight: 700;
 }
 
+.font-medium {
+  font-weight: 500;
+}
+
 .font-semibold {
   font-weight: 600;
 }
 
 .leading-snug {
   line-height: 1.375;
+}
+
+.text-\[\#903C0E\] {
+  --tw-text-opacity: 1;
+  color: rgb(144 60 14 / var(--tw-text-opacity));
 }
 
 .text-green-600 {
