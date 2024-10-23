@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/output.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    <title>Document</title>
+    <title>Restuarant</title>
 </head>
 <body>
-    <div class="bg-[#E9B279]  h-full">
+
+    <!-- Homepage starts -->
+    <div class="flex flex-col h-screen relative bg-[#E9B279]">
         <div style="margin-left: 60rem;" class="absolute inset-0 flex items-center ml-96">
             <img src="Images/Pizza2.png" alt="" class="absolute inset-0 object-cover w-full h-full">
         </div>
@@ -16,22 +18,22 @@
             <nav class="flex items-center mx-16">
                 <ul class="flex text-center text-white mx-32">
                     <li class="mx-10 font-bold text-lg">
-                        <a href="index.html">
+                        <a href="src/ReservationTable.html">
                             Reservations
                         </a>
                     </li>
                     <li class="mx-10 font-bold text-lg">
-                        <a href="Pic3.html">
+                        <a href="src/Menu.html">
                             Menu
                         </a>
                     </li>
                     <li class="mx-10 font-bold text-lg">
-                        <a href="Pic5.html">
+                        <a href="src/Reviews.html">
                             Reviews
                         </a>
                     </li>
                     <li class="mx-10 font-bold text-lg">
-                        <a href="Pic5.html">
+                        <a href="src/Chefs.html">
                             Chefs
                         </a>
                     </li>
@@ -84,7 +86,7 @@
                 </div>
                 <div class="flex items-center w-28 h-14 mx-2 border border-[#903C0E] bg-[#b6521d] rounded-lg ">
                     <i class="fa-solid fa-utensils mx-4 text-white"></i>
-                    <span class="text-white font-medium -mx-3"><a href="#">Dine In</a></span>
+                    <span class="text-white font-medium -mx-3"><a href="src/DineInReservations.html">Dine In</a></span>
                 </div>
     
             </div>
@@ -92,12 +94,14 @@
         
 
     </div>
+    <!-- Homepage ends -->
 
-    <div class="flex justify-center mt-16 h-96">
+    <!-- Reservation Table starts -->
+    <div style="height: 55rem;" class="flex justify-center mt-16 bg-black  h-screen mx-64">
         <div class="bg-black flex h-screen mx-64">
             <div class="flex justify-center mt-16">
-                <div class="bg-black p-10 rounded-lg">
-                    <h1 class="text-orange-700 font-serif text-3xl ml-72">
+                <div class="bg-black p-5 rounded-lg">
+                    <h1 class="text-[#903C0E] font-serif text-3xl ml-36">
                         Reservations
                     </h1>
                     <h2 class="mt-10 text-6xl text-yellow-100 font-serif text-center">
@@ -146,19 +150,21 @@
         
                 </div>
         
-                <div class="flex ml-10 mt-10">
-                    <img src="Images/Table.jpg" alt="Table Image" class="rounded-lg w-full h-full mt-24 ml-10">
+                <div style="width: 40rem; height: 54rem;" class="flex ml-10 -mt-14">
+                    <img src="Images/Table.jpg" alt="Table Image" class="rounded-lg w-full h-full  ml-10">
                 </div>
             </div>
         </div>
     </div>
+    <!-- Reservation Table ends -->
 
+    <!-- Menu starts -->
     <div>
-        <div style="margin-top: 30rem;" class="flex flex-col h-screen relative">
+        <div style="margin-top: 4rem;" class="flex flex-col h-screen relative">
             <img class=" h-screen w-screen" src="Images/Vegetable Background.jpg" alt="">
         </div>
         <div class="flex justify-center h-screen absolute inset-0 mt-12 ml-32">
-            <nav style="width:36rem; margin-top: 99rem;" class=" h-20 bg-white border border-orange-800 rounded-lg">
+            <nav style="width:36rem; margin-top: 108rem;" class=" h-20 bg-white border border-orange-800 rounded-lg">
                 <ul class="flex text-center">
                     <li class="flex mt-4 items-center justify-center text-center w-32 h-11 mx-2 bg-orange-500 rounded-lg">
                         <span class="mx-2">All Category</span>
@@ -182,7 +188,7 @@
             </nav>
         
     
-        <div style="margin-top: 99rem;" class="flex items-center h-screen">
+        <div style="margin-top: 108rem;" class="flex items-center h-screen">
             <div style="margin-left:-44rem;height:28rem;" class="w-80 h-96 bg-white border border-orange-800 rounded-lg flex relative">
                 <div class="w-80">
                     <img src="Images/chicken skewers .jpg" alt="image" class="w-full rounded-lg">
@@ -209,7 +215,7 @@
             </div>
         </div>
     
-        <div style="margin-top: 99rem;" class="flex items-center h-screen">
+        <div style="margin-top: 108rem;" class="flex items-center h-screen">
             <div style="margin-left:-22rem;height:28rem;" class="w-80 h-96 bg-white border border-orange-800 rounded-lg flex relative">
                 <div class="w-80">
                     <img src="Images/lemon fish fry.jpg" alt="image" class="w-full rounded-lg">
@@ -236,7 +242,7 @@
             </div>
         </div>
     
-        <div style="margin-top: 99rem;" class="flex items-center h-screen">
+        <div style="margin-top: 108rem;" class="flex items-center h-screen">
             <div style="height:28rem;" class="w-80 h-96 bg-white border border-orange-800 rounded-lg flex relative">
                 <div class="w-80">
                     <img src="Images/Beef Sandwich.jpg" alt="image" class="w-full rounded-lg">
@@ -264,8 +270,11 @@
         </div>
     </div>
     </div>
+    <!-- Menu ends-->
 
-    <div>
+    
+    <!-- Reviews starts -->
+    <div class="mt-16">
         <div class="text-center mt-10">
             <h1 class="text-pink-500 italic text-3xl">
                 Reviews
@@ -334,8 +343,10 @@
             <i class="fa-solid fa-minus text-pink-500 text-5xl w-3 mx-8"></i>
         </div>
     </div>
+    <!-- Reviews ends -->
 
-    <div>
+    <!-- DineInReservations starts -->
+    <div class="mt-16">
         <div style="width:40rem; height: 45rem; margin-left:40rem;" class="flex flex-col bg-slate-200 ml-96 items-center">
             <h1 class="text-black text-6xl font-serif mt-16">
                 Reservation
@@ -393,10 +404,13 @@
         
         </div> 
     </div>
+    <!-- DineInReservations ends -->
 
-    <div class="mt-52">
-        <div class="container -ml-40 px-4">
-            <div class="flex items-center justify-center mt-24">
+    
+    <!-- Chefs starts -->
+    <div style="margin-top: 12rem;" >
+        <div class="container -ml-40 px-4 ">
+            <div class="flex items-center justify-center ">
                 <h1 class="text-orange-500 text-lg font-medium mt-12">
                     BEST FOOD MENU
                 </h1>
@@ -438,11 +452,14 @@
     
         </div>
     </div>
+    <!-- Chefs starts -->
 
-    <div class="bg-red-800 mt-6 h-64">
+
+    <!-- footer starts -->
+    <div class="bg-[#E9B279] mt-6 h-64">
         <div class="flex items-start">
             <div class="ml-20">
-                <h1 class="text-white text-4xl mt-6 font-serif">
+                <h1 class="text-[#903C0E] text-4xl mt-6 font-serif">
                     Pizza Centre
                 </h1>
                 <h2 class="mt-4 text-white text-lg font-thin">
@@ -460,20 +477,20 @@
                 </div>
             </div>
             <div class="mx-48">
-                <h1 class="text-white text-3xl font-sans mt-6 underline">
+                <h1 class="text-[#903C0E] text-3xl font-sans mt-6 underline">
                     Branches
                 </h1>
                 <h2 class="mt-4 my-4 text-white text-xl font-mono">
-                    <i class="fa-solid fa-location-dot"></i>Bahadurabad <br/>
-                    <i class="fa-solid fa-location-dot"></i>Clifton <br/>
-                    <i class="fa-solid fa-location-dot"></i>Sea View <br/>
-                    <i class="fa-solid fa-location-dot"></i>DHA <br/>
-                    <i class="fa-solid fa-location-dot"></i> Dolmen Mall <br/>
-                    <i class="fa-solid fa-location-dot"></i> Phase 6
+                    <i class="fa-solid fa-location-dot text-[#903C0E] pr-1"></i> Bahadurabad <br/>
+                    <i class="fa-solid fa-location-dot text-[#903C0E]"></i> Clifton <br/>
+                    <i class="fa-solid fa-location-dot text-[#903C0E]"></i> Sea View <br/>
+                    <i class="fa-solid fa-location-dot text-[#903C0E]"></i> DHA <br/>
+                    <i class="fa-solid fa-location-dot text-[#903C0E]"></i> Dolmen Mall <br/>
+                    <i class="fa-solid fa-location-dot text-[#903C0E]"></i> Phase 6
                 </h2>
             </div>
             <div>
-                <h1 class="text-white text-3xl font-sans mt-6 underline">
+                <h1 class="text-[#903C0E] text-3xl font-sans mt-6 underline">
                     TIMINGS
                 </h1>
                 <h2 class="mt-2 text-white text-xl font-semibold">
@@ -485,12 +502,12 @@
                     Take Away
                 </h4>
                 <h5 class="text-white text-lg font-thin">
-                    <i class="fa-solid fa-clock-rotate-left"></i>
+                    <i class="fa-solid fa-clock-rotate-left text-[#903C0E]"></i>
                     <span>24/7</span>
                 </h5>
             </div>
-            <div class="mx-28">
-                <h1 class="text-white text-3xl font-sans mt-6 underline">
+            <div class="ml-48">
+                <h1 class="text-[#903C0E] text-3xl font-sans mt-6 underline">
                     Information
                 </h1>
                 <h2 class="mt-4 my-4 text-white text-xl font-mono">
@@ -501,5 +518,6 @@
             </div>
         </div>
     </div>
+    <!-- footer ends -->
 </body>
 </html>
